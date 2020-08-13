@@ -17,7 +17,9 @@ export class ContainerComponent implements OnInit, OnDestroy {
 
 	ngOnInit(): void {
 		this.pokemonOberver = this.pokemonService.getPokemons().subscribe((data) => {
-			this.pokemonList = data;
+			if (data) {
+				this.pokemonList = data;
+			}
 		});
 	}
 

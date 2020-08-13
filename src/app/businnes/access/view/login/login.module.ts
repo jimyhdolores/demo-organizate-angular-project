@@ -9,6 +9,7 @@ import { MatInputModule } from '@angular/material/input';
 import { MatButtonModule } from '@angular/material/button';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { LogoModule } from '../../../../common/components/logo/logo.module';
+import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 @NgModule({
 	declarations: [LoginComponent],
 	imports: [
@@ -19,6 +20,8 @@ import { LogoModule } from '../../../../common/components/logo/logo.module';
 		MatInputModule,
 		MatButtonModule,
 		FlexLayoutModule,
+		ReactiveFormsModule,
+		FormsModule,
 		LogoModule
 	]
 })
