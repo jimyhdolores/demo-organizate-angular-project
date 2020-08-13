@@ -1,0 +1,45 @@
+{
+	"pokemons": [
+		{
+			"name": "Pikachu",
+			"type": "eletrico",
+			"species": "raton",
+			"image": "pikachu.jpg",
+			"description": "Pikachu es un Pokémon de tipo eléctrico introducido en la primera generación. Es el Pokémon más conocido de la historia, mayormente por ser el acompañante del protagonista del anime, Ash Ketchum y la mascota representante de la franquicia Pokémon. Es el Pokémon inicial de Pokémon Amarillo y Pokémon: Let's Go Pikachu! A partir de la segunda generación, es la forma evolucionada de Pichu.",
+			"evolutions": [{ "name": "raichu", "image": "raichu.jpg" }]
+		},
+		{
+			"name": "Charmander",
+			"type": "fuego",
+			"species": "lagarto",
+			"image": "charmander.jpg",
+			"description": "Charmander es un Pokémon de tipo fuego introducido en la primera generación. Es uno de los Pokémon iniciales que pueden elegir los entrenadores que empiezan su aventura en la región Kanto, junto a Bulbasaur y Squirtle, excepto en Pokémon Amarillo y Pokémon: Let's Go, Pikachu! y Pokémon: Let's Go, Eevee!",
+			"evolutions": [
+				{ "name": "Charmeleon", "image": "charmeleon.jpg" },
+				{ "name": "Charizard", "image": "charizard.jpg" }
+			]
+		},
+		{
+			"name": "Bulbasaur",
+			"type": "planta",
+			"species": "cuadrúpedo",
+			"image": "bulbasaur.jpg",
+			"description": "Bulbasaur es un Pokémon de tipo planta/veneno introducido en la primera generación. Es uno de los Pokémon iniciales que pueden elegir los entrenadores que empiezan su aventura en la región Kanto, junto a Squirtle y Charmander (excepto en Pokémon Amarillo). Destaca por ser el primer Pokémon de la Pokédex Nacional.",
+			"evolutions": [
+				{ "name": "Ivysaur", "image": "ivysaur.jpg" },
+				{ "name": "Venusaur", "image": "venusaur.jpg" }
+			]
+		},
+		{
+			"name": "Squirtle",
+			"type": "agua",
+			"species": "tortuga",
+			"image": "squirtle.jpg",
+			"description": "Squirtle es un Pokémon de tipo agua introducido en la primera generación. Es uno de los Pokémon iniciales que pueden elegir los entrenadores que empiezan su aventura en la región Kanto, junto a Bulbasaur y Charmander, excepto en Pokémon Amarillo.",
+			"evolutions": [
+				{ "name": "Wartortle", "image": "wartortle.jpg" },
+				{ "name": "Blastoise", "image": "blastoise.jpg" }
+			]
+		}
+	]
+}
