@@ -13,23 +13,22 @@ import { PokemonModule } from '../../../../common/components/pokemon/pokemon.mod
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { EvolutionsModule } from '../../../../common/components/evolutions/evolutions.module';
 
-
 @NgModule({
-  declarations: [ContainerComponent],
-  imports: [
-    CommonModule,
-    PrincipalRoutingModule,
-    MatButtonModule,
-    ClipboardModule,
-    LayoutModule,
-    MatToolbarModule,
-    MatButtonModule,
-    MatSidenavModule,
-    MatIconModule,
-    MatListModule,
-    PokemonModule,
-    FlexLayoutModule,
-    EvolutionsModule
-  ]
+	declarations: [ContainerComponent],
+	imports: [
+		CommonModule,
+		PrincipalRoutingModule,
+		MatButtonModule,
+		ClipboardModule,
+		LayoutModule,
+		MatToolbarModule,
+		MatButtonModule,
+		MatSidenavModule,
+		MatIconModule,
+		MatListModule,
+		PokemonModule,
+		FlexLayoutModule,
+		EvolutionsModule
+	]
 })
-export class ContainerModule { }
+export class ContainerModule {}

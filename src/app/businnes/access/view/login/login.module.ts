@@ -10,16 +10,16 @@ import { MatButtonModule } from '@angular/material/button';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { LogoModule } from '../../../../common/components/logo/logo.module';
 @NgModule({
-  declarations: [LoginComponent],
-  imports: [
-    CommonModule,
-    LoginRoutingModule,
-    MatCardModule,
-    MatFormFieldModule,
-    MatInputModule,
-    MatButtonModule,
-    FlexLayoutModule,
-    LogoModule
-  ]
+	declarations: [LoginComponent],
+	imports: [
+		CommonModule,
+		LoginRoutingModule,
+		MatCardModule,
+		MatFormFieldModule,
+		MatInputModule,
+		MatButtonModule,
+		FlexLayoutModule,
+		LogoModule
+	]
 })
-export class LoginModule { }
+export class LoginModule {}

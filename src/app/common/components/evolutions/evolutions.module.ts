@@ -6,15 +6,9 @@ import { EvolutionsComponent } from './evolutions.component';
 import { MatCardModule } from '@angular/material/card';
 import { FlexLayoutModule } from '@angular/flex-layout';
 
-
 @NgModule({
-  declarations: [EvolutionsComponent],
-  imports: [
-    CommonModule,
-    EvolutionsRoutingModule,
-    MatCardModule,
-    FlexLayoutModule
-  ],
-  exports: [EvolutionsComponent]
+	declarations: [EvolutionsComponent],
+	imports: [CommonModule, EvolutionsRoutingModule, MatCardModule, FlexLayoutModule],
+	exports: [EvolutionsComponent]
 })
-export class EvolutionsModule { }
+export class EvolutionsModule {}

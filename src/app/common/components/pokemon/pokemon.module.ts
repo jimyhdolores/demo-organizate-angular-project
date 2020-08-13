@@ -6,15 +6,9 @@ import { PokemonComponent } from './pokemon.component';
 import { MatCardModule } from '@angular/material/card';
 import { MatButtonModule } from '@angular/material/button';
 
-
 @NgModule({
-  declarations: [PokemonComponent],
-  imports: [
-    CommonModule,
-    PokemonRoutingModule,
-    MatCardModule,
-    MatButtonModule,
-  ],
-  exports: [PokemonComponent]
+	declarations: [PokemonComponent],
+	imports: [CommonModule, PokemonRoutingModule, MatCardModule, MatButtonModule],
+	exports: [PokemonComponent]
 })
-export class PokemonModule { }
+export class PokemonModule {}

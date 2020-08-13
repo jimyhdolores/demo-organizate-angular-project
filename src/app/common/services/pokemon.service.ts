@@ -5,13 +5,12 @@ import { POKEMON_LIST } from '../constants/url-http';
 import { IPokemon } from './pokemon';
 
 @Injectable({
-  providedIn: 'root'
+	providedIn: 'root'
 })
 export class PokemonService {
+	constructor(private http: HttpClient) {}
 
-  constructor(private http: HttpClient) { }
-
-  getPokemons(): Observable<IPokemon[]> {
-    return this.http.get<IPokemon[]>(POKEMON_LIST);
-  }
+	getPokemons(): Observable<IPokemon[]> {
+		return this.http.get<IPokemon[]>(POKEMON_LIST);
+	}
 }

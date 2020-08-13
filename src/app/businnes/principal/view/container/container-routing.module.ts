@@ -5,7 +5,7 @@ import { ContainerComponent } from './container.component';
 const routes: Routes = [{ path: '', component: ContainerComponent }];
 
 @NgModule({
-  imports: [RouterModule.forChild(routes)],
-  exports: [RouterModule]
+	imports: [RouterModule.forChild(routes)],
+	exports: [RouterModule]
 })
-export class PrincipalRoutingModule { }
+export class PrincipalRoutingModule {}
