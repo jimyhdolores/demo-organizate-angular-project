@@ -11,7 +11,6 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatListModule } from '@angular/material/list';
 import { PokemonModule } from '../../../../common/components/pokemon/pokemon.module';
 import { FlexLayoutModule } from '@angular/flex-layout';
-import { HabitatModule } from '../../../../common/components/habitat/habitat.module';
 import { EvolutionsModule } from '../../../../common/components/evolutions/evolutions.module';
 
 
@@ -29,7 +28,6 @@ import { EvolutionsModule } from '../../../../common/components/evolutions/evolu
     MatIconModule,
     MatListModule,
     PokemonModule,
-    HabitatModule,
     FlexLayoutModule,
     EvolutionsModule
   ]

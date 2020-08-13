@@ -1,9 +1,8 @@
-.example-card {
+.pokemon-card {
   max-width: 400px;
   height: 100%;
 }
 
-.example-header-image {
-  background-image: url("/assets/img/pokemons.jpg");
-  background-size: cover;
+.header-image {
+  background-size: cover !important;
 }

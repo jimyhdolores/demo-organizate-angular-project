@@ -1,10 +1,8 @@
 <mat-sidenav-container class="sidenav-container" [hasBackdrop]="false">
   <mat-sidenav #drawer class="sidenav" fixedInViewport mode="push">
     <mat-toolbar>Pokémon</mat-toolbar>
-    <mat-nav-list>
-      <a mat-list-item href="#">Link 1</a>
-      <a mat-list-item href="#">Link 2</a>
-      <a mat-list-item href="#">Link 3</a>
+    <mat-nav-list *ngFor="let item of pokemonList">
+      <a mat-list-item (click)="loadPokemonSelected(item)">{{ item.name }}</a>
     </mat-nav-list>
   </mat-sidenav>
   <mat-sidenav-content>
@@ -19,19 +17,23 @@
       </button>
       <span>Pokémon</span>
     </mat-toolbar>
+
     <div
       class="container-components"
-      fxLayout="column"
       fxLayoutAlign="center center"
+      fxLayout="row"
       fxLayoutGap="5%"
     >
-      <div fxLayout="row" fxLayoutGap="5%">
-        <app-pokemon fxFlexAlign="stretch"></app-pokemon>
-        <app-habitat fxFlexAlign="stretch"></app-habitat>
-      </div>
-      <div fxLayout="row">
-        <app-evolutions></app-evolutions>
-      </div>
+      <app-pokemon
+        fxFlexAlign="stretch"
+        [name]="pokemonSelected.name"
+        [description]="pokemonSelected.description"
+        [type]="pokemonSelected.type"
+        [image]="pokemonSelected.image"
+      ></app-pokemon>
+      <app-evolutions
+        [evolutions]="pokemonSelected.evolutions"
+      ></app-evolutions>
     </div>
   </mat-sidenav-content>
 </mat-sidenav-container>

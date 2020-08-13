@@ -1,0 +1,61 @@
+{
+  "pokemons": [
+    {
+      "name": "Pikachu",
+      "type": "eletrico",
+      "species": "raton",
+      "image": "pikachu.jpg",
+      "description": "Pikachu es un Pokémon de tipo eléctrico introducido en la primera generación. Es el Pokémon más conocido de la historia, mayormente por ser el acompañante del protagonista del anime, Ash Ketchum y la mascota representante de la franquicia Pokémon. Es el Pokémon inicial de Pokémon Amarillo y Pokémon: Let's Go Pikachu! A partir de la segunda generación, es la forma evolucionada de Pichu.",
+      "habitat": {
+        "description": "Pikachu crece en áreas con altas cantidades de actividad eléctrica natural. Es un Pokémon bastante corriente. Se le puede encontrar en campos con abundantes arbustos de bayas e incluso en algunos bosques con pequeños ríos y lagunas para hidratarse. Hay una colonia de Pikachu bastante conocida en el Bosque Verde, en Kanto. Es normal que los Pikachu a veces se adentren en la ciudad en busca de comida si hay escasez en su hábitat, aunque son muy tímidos con los humanos. Suelen vivir en manadas.",
+        "image": "pikachu_habitat.jpg"
+      },
+      "evolutions": [{ "name": "raichu", "image": "raichu.jpg" }]
+    },
+    {
+      "name": "Charmander",
+      "type": "fuego",
+      "species": "lagarto",
+      "image": "charmander.jpg",
+      "description": "Charmander es un Pokémon de tipo fuego introducido en la primera generación. Es uno de los Pokémon iniciales que pueden elegir los entrenadores que empiezan su aventura en la región Kanto, junto a Bulbasaur y Squirtle, excepto en Pokémon Amarillo y Pokémon: Let's Go, Pikachu! y Pokémon: Let's Go, Eevee!",
+      "habitat": {
+        "description": "Los ejemplares de Charmander son escasos en el hábitat salvaje. Los pocos que quedan eligen preferentemente lugares cálidos para vivir, como las cercanías de volcanes. El hábitat de Charmander es la montaña. Vive en lugares rocosos y aledaños a lugares muy calurosos, pero cabe destacar que no vive en zonas de gran altura. También viven en montañas escarpadas, en manadas junto con Charmeleon y Charizard.",
+        "image": "charmander_habitat.jpg"
+      },
+      "evolutions": [
+        { "name": "Charmeleon", "image": "charmeleon.jpg" },
+        { "name": "Charizard", "image": "charizard.jpg" }
+      ]
+    },
+    {
+      "name": "Bulbasaur",
+      "type": "planta",
+      "species": "cuadrúpedo",
+      "image": "bulbasaur.jpg",
+      "description": "Bulbasaur es un Pokémon de tipo planta/veneno introducido en la primera generación. Es uno de los Pokémon iniciales que pueden elegir los entrenadores que empiezan su aventura en la región Kanto, junto a Squirtle y Charmander (excepto en Pokémon Amarillo). Destaca por ser el primer Pokémon de la Pokédex Nacional.",
+      "habitat": {
+        "description": "No es muy raro encontrarlo en jardines y zonas cercanas a fuentes de agua. También suele encontrarse en zonas boscosas profundas. Se los puede atraer con el aroma de las flores. Bulbasaur es omnívoro, aunque si no encuentra comida, su bulbo absorbe la energía del sol para hacer la fotosíntesis y le permite pasar días sin comer. Dicen que en las mañanas su bulbo se abre y atrapa al primer Pokémon que caiga por su irresistible olor.",
+        "image": "bulbasaur_habitat.jpg"
+      },
+      "evolutions": [
+        { "name": "Ivysaur", "image": "ivysaur.jpg" },
+        { "name": "Venusaur", "image": "venusaur.jpg" }
+      ]
+    },
+    {
+      "name": "Squirtle",
+      "type": "agua",
+      "species": "tortuga",
+      "image": "squirtle.jpg",
+      "description": "Squirtle es un Pokémon de tipo agua introducido en la primera generación. Es uno de los Pokémon iniciales que pueden elegir los entrenadores que empiezan su aventura en la región Kanto, junto a Bulbasaur y Charmander, excepto en Pokémon Amarillo.",
+      "habitat": {
+        "description": "Squirtle es relativamente fácil de criar gracias a su destacado carácter alegre y simpático, aunque su relativa lentitud en tierra firme y la dificultad para equilibrar sus ataques acuáticos con ataques de otros tipos pueden crear algunos problemas al entrenador. Squirtle normalmente come algas, pero también le gustan otros alimentos como la fruta. En tierra firme, a Squirtle le puede resultar un poco más difícil andar, pero le resulta mas fácil ir a cuatro patas.",
+        "image": "squirtle_habitat.jpg"
+      },
+      "evolutions": [
+        { "name": "Wartortle", "image": "wartortle.jpg" },
+        { "name": "Blastoise", "image": "blastoise.jpg" }
+      ]
+    }
+  ]
+}

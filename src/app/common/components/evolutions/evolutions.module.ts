@@ -4,6 +4,7 @@ import { CommonModule } from '@angular/common';
 import { EvolutionsRoutingModule } from './evolutions-routing.module';
 import { EvolutionsComponent } from './evolutions.component';
 import { MatCardModule } from '@angular/material/card';
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 
 @NgModule({
@@ -11,7 +12,8 @@ import { MatCardModule } from '@angular/material/card';
   imports: [
     CommonModule,
     EvolutionsRoutingModule,
-    MatCardModule
+    MatCardModule,
+    FlexLayoutModule
   ],
   exports: [EvolutionsComponent]
 })
