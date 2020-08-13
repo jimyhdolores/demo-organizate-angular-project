@@ -1,6 +1,7 @@
 # "Organizando mi proyecto angular".
 
 "Veremos como distribuir la estructura de carpetas de nuestro proyecto, tips para el manejo de las rutas, que Scripts tener en nuestro package.json, como asegurar la calidad de código y más"
+
 Este proyecto esta realizado en Angular 9 y Material Desing.
 
 # PLugin que usaremos en nuestro editor de código (en mi caso VSCode)
