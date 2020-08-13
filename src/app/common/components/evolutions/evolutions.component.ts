@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { IEvolution } from '../../services/pokemon';
+import { IEvolution } from '../../services/models/pokemon';
 
 @Component({
 	selector: 'app-evolutions',

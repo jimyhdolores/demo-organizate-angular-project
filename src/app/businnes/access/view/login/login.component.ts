@@ -1,14 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
-import {
-	FormGroup,
-	FormBuilder,
-	Validators,
-	FormControl,
-	FormGroupDirective,
-	NgForm
-} from '@angular/forms';
-import { ErrorStateMatcher } from '@angular/material/core';
+import { FormGroup, FormBuilder, Validators } from '@angular/forms';
 
 @Component({
 	selector: 'app-login',
