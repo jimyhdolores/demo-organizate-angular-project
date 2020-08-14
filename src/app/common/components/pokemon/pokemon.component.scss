@@ -1,8 +1,11 @@
 .pokemon-card {
-  max-width: 400px;
-  height: 100%;
+	max-width: 400px;
+	height: 100%;
 }
 
 .header-image {
-  background-size: cover !important;
+	background-size: cover !important;
+}
+.mat-card-image {
+	height: 400px;
 }

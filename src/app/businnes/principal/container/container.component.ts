@@ -1,7 +1,7 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
 import { Subscription } from 'rxjs';
 import { IPokemon } from '@demo-service/models/pokemon';
-import { PokemonService } from '@demo-service/pokemon.service';
+import { PokemonService } from '@demo-service/http/pokemon.service';
 
 @Component({
 	selector: 'app-container',
@@ -12,7 +12,7 @@ export class ContainerComponent implements OnInit, OnDestroy {
 	pokemonOberver: Subscription;
 	pokemonList: IPokemon[] = [];
 	pokemonSelected: IPokemon = {};
-
+	namePokemon = '';
 	constructor(private pokemonService: PokemonService) {}
 
 	ngOnInit(): void {
@@ -29,5 +29,6 @@ export class ContainerComponent implements OnInit, OnDestroy {
 
 	loadPokemonSelected(pokemon: IPokemon) {
 		this.pokemonSelected = pokemon;
+		this.namePokemon = this.pokemonSelected.name;
 	}
 }

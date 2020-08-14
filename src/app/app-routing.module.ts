@@ -5,13 +5,12 @@ const routes: Routes = [
 	{ path: '', pathMatch: 'full', redirectTo: 'login' },
 	{
 		path: 'login',
-		loadChildren: () =>
-			import('./businnes/access/view/login/login.module').then((m) => m.LoginModule)
+		loadChildren: () => import('./businnes/access/login/login.module').then((m) => m.LoginModule)
 	},
 	{
 		path: 'principal',
 		loadChildren: () =>
-			import('./businnes/principal/view/container/container.module').then((m) => m.ContainerModule)
+			import('./businnes/principal/container/container.module').then((m) => m.ContainerModule)
 	}
 ];
 

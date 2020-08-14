@@ -11,7 +11,6 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatListModule } from '@angular/material/list';
 import { PokemonModule } from '../../../common/components/pokemon/pokemon.module';
 import { FlexLayoutModule } from '@angular/flex-layout';
-import { EvolutionsModule } from '../../../common/components/evolutions/evolutions.module';
 
 @NgModule({
 	declarations: [ContainerComponent],
@@ -27,8 +26,7 @@ import { EvolutionsModule } from '../../../common/components/evolutions/evolutio
 		MatIconModule,
 		MatListModule,
 		PokemonModule,
-		FlexLayoutModule,
-		EvolutionsModule
+		FlexLayoutModule
 	]
 })
 export class ContainerModule {}
