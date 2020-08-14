@@ -8,7 +8,7 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { MatButtonModule } from '@angular/material/button';
 import { FlexLayoutModule } from '@angular/flex-layout';
-import { LogoModule } from '../../../../common/components/logo/logo.module';
+import { LogoModule } from '../../../common/components/logo/logo.module';
 import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 @NgModule({
 	declarations: [LoginComponent],
